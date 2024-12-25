@@ -1,4 +1,6 @@
-import React from 'react';
+import React from "react";
+import { BiTimeFive } from 'react-icons/bi'; // Import the time icon
+
 
 const Jobs = () => {
   return (
