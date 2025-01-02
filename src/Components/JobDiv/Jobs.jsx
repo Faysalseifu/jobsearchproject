@@ -21,6 +21,60 @@ const Data = [ // Data is an array
     desc: 'Another job description...',
     company: 'Google',
   },
+  {
+    id: 2,
+    image: logol,
+    title: 'Software Engineer',
+    time: '2 days ago',
+    location: 'USA',
+    desc: 'Another job description...',
+    company: 'Google',
+  },
+  {
+    id: 2,
+    image: logol,
+    title: 'Software Engineer',
+    time: '2 days ago',
+    location: 'USA',
+    desc: 'Another job description...',
+    company: 'Google',
+  },
+  {
+    id: 1,
+    image: logol,
+    title: 'Web Developer',
+    time: 'Now',
+    location: 'Canada',
+    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, laboriosam!',
+    company: 'Novac Linus Co.',
+  },
+    {
+    id: 2,
+    image: logol,
+    title: 'Software Engineer',
+    time: '2 days ago',
+    location: 'USA',
+    desc: 'Another job description...',
+    company: 'Google',
+  },
+  {
+    id: 2,
+    image: logol,
+    title: 'Software Engineer',
+    time: '2 days ago',
+    location: 'USA',
+    desc: 'Another job description...',
+    company: 'Google',
+  },
+  {
+    id: 2,
+    image: logol,
+    title: 'Software Engineer',
+    time: '2 days ago',
+    location: 'USA',
+    desc: 'Another job description...',
+    company: 'Google',
+  },
 ];
 
 const Jobs = () => {
@@ -45,7 +99,7 @@ const Jobs = () => {
               {job.desc}
             </p>
               <h6 className="text-[#ccc]">{job.company}</h6> {/* Added company display */}
-            <img src={job.image} alt="Job Logo" />
+            {/* <img src={job.image} alt="Job Logo" /> */}
           </div>
         ))}
       </div>
